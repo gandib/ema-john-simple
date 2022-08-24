@@ -1,0 +1,120 @@
+.form-container {
+    width: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-title {
+    font-size: 35px;
+    font-weight: 400;
+    color: #2A414F;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+}
+
+.input-group input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.form-submit {
+    width: 415px;
+    height: 55px;
+    background-color: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
+}
+
+.form-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.form-link:hover {
+    color: #3bb60b;
+}
+
+.form-new-to-ema-john {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-divider-group {
+    display: flex;
+    width: 354px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.form-divider {
+    height: 0px;
+    width: 145px;
+    border: 1px solid rgba(149, 160, 167, 1);
+}
+
+.form-divider-or {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #95A0A7;
+}
+
+.google-btn {
+    width: 415px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(149, 160, 167, 1);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.google-img-txt-group {
+    width: 205px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo {
+    margin-right: 8px;
+}
+
+.google-text {
+    /* color: #2A414F; */
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
