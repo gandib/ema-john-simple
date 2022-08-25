@@ -13,4 +13,22 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     margin: 100px 50px;
+    margin-bottom: 50px;
+}
+
+.pagination {
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.pagination button {
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid orange;
+}
+
+.pagination .selected {
+    background-color: orange;
+    color: white;
 }
